@@ -687,6 +687,15 @@ document.getElementById("resetBtn").addEventListener("click", async () => {
 });
 
 loadProgress();
+
+// Register service worker for offline support
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js")
+      .then(() => console.log("Service worker registered — offline mode enabled"))
+      .catch((err) => console.error("Service worker registration failed:", err));
+  });
+}
 </script>
 </body>
 </html>
