@@ -1,8 +1,10 @@
 [{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.hemanth_naik07.twa",
-        "sha256_cert_fingerprints": ["DF:2D:94:45:BF:00:53:F4:97:6C:64:66:61:FC:3A:1F:DE:FE:5E:EF:C9:F0:67:48:7C:85:E8:54:8E:4A:C4:31"]
-      }
-    }]
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.yourname.gatechtracker",
+    "sha256_cert_fingerprints": [
+      "FD:47:A3:BF:06:D6:6E:2E:1F:8A:69:E3:B8:E1:BC:F3:54:BD:37:78:EC:53:B5:2C:0B:2D:BD:F4:9C:F4:29:58"
+    ]
+  }
+}]
